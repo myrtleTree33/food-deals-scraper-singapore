@@ -1,6 +1,6 @@
 {
   "name": "node-scraper-amex",
-  "version": "2.0.2",
+  "version": "2.0.8",
   "description": "Node JS Scraper for AMEX cards in Singapore",
   "main": "dist/index.js",
   "babel": {
@@ -22,7 +22,7 @@
   "scripts": {
     "lint": "eslint src/**",
     "build": "babel --presets es2015 src -d dist",
-    "prepublish": "npm run build",
+    "prepare": "yarn run build",
     "start": "node dist/",
     "dev": "./node_modules/.bin/babel-node src/",
     "test-cov": "babel-node ./node_modules/.bin/isparta cover _mocha",

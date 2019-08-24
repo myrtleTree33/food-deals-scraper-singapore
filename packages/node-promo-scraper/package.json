@@ -61,10 +61,10 @@
     "supertiler": "^0.0.2",
     "uuid": "^3.3.2",
     "winston": "^3.1.0",
-    "node-scraper-amex": "^1.0.0",
-    "node-scraper-burpple": "^1.0.0",
-    "node-scraper-citi": "^1.0.0",
-    "node-scraper-chope": "^0.1.1"
+    "node-scraper-amex": "2.0.8",
+    "node-scraper-burpple": "1.2.2",
+    "node-scraper-citi": "1.1.1",
+    "node-scraper-chope": "0.1.2"
   },
   "devDependencies": {
     "babel-eslint": "^8.2.6",

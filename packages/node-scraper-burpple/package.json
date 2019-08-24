@@ -1,6 +1,6 @@
 {
   "name": "node-scraper-burpple",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "A NodeJS Scrape for Burpple / Burpple Beyond",
   "main": "dist/index.js",
   "babel": {
@@ -22,7 +22,7 @@
   "scripts": {
     "lint": "eslint src/**",
     "build": "babel --presets es2015 src -d dist",
-    "prepublish": "npm run build",
+    "prepare": "yarn run build",
     "start": "node dist/",
     "dev": "./node_modules/.bin/babel-node src/",
     "test-cov": "babel-node ./node_modules/.bin/isparta cover _mocha",
