@@ -35,3 +35,17 @@
 {"message":"[Matcher] Starting scheduled outlet matching job..","level":"info"}
 {"message":"Listening on port 8080","level":"info"}
 {"message":"[Matcher] Processing 12308 records.","level":"info"}
+{"message":"Connecting to mongodb://scraperBot:y798234by78t73482ytb948ygfceudjhhdNGGUEWgef373@68.183.236.43:13972/promoscraper..","level":"info"}
+{"message":"Connected to mongodb://scraperBot:y798234by78t73482ytb948ygfceudjhhdNGGUEWgef373@68.183.236.43:13972/promoscraper","level":"info"}
+{"message":"== Starting scrapers ==","level":"info"}
+{"message":"[Burpple] Scheduled Burpple scraping.","level":"info"}
+{"message":"[Burpple] Started Burpple scraping..","level":"info"}
+{"message":"[Citi] Scheduled Citi scraping.","level":"info"}
+{"message":"[Citi] Started Citi scraping..","level":"info"}
+{"message":"[Chope] Scheduled Chope scraping.","level":"info"}
+{"message":"[Chope] Started Chope scraping..","level":"info"}
+{"message":"[Amex] Scheduled scraping.","level":"info"}
+{"message":"[Amex] Started scraping..","level":"info"}
+{"message":"[Matcher] Starting scheduled outlet matching job..","level":"info"}
+{"message":"Listening on port 8080","level":"info"}
+{"message":"[Matcher] Processing 12308 records.","level":"info"}
