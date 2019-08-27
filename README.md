@@ -17,13 +17,14 @@ Help would be appreciated to integrate more providers below:
 | Chope Outlets | Outlets not scraped yet |
 | Amex          | Scraped                 |
 | Citi          | Scraped                 |
-| OCBC          |                         |
+| OCBC          | Scraped but not matched |
+| Maybank       |                         |
+| HSBC          |                         |
 | HungryGoWhere |                         |
 
 ## Help needed for
 
-- [ ] Scraping OCBC promos
-- [ ] Scraping HungryGoWhere promos
+- [ ] Scraping promos
 - [ ] Refactoring code
 - [ ] Improving matching algorithm time / space efficiency and accuracy (O(n^2) time, O(n) space at current)
 
