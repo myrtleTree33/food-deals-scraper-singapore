@@ -1,5 +1,7 @@
 # Singapore Food Promotions Scraper
 
+[![lerna](https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg)](https://lerna.js.org/)
+
 ## Introduction
 
 This code exposes a working NodeJS server, that scrapes and matches food and dining deals in Singapore.
