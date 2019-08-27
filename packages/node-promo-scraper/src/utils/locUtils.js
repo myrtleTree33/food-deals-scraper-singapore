@@ -18,7 +18,7 @@ const getLngLat = async locationStr => {
 
     return [lng, lat];
   } catch (e) {
-    logger.error(e);
+    logger.error(`${e.message} Error finding loc=${locationStr}`);
     return null;
   }
 };

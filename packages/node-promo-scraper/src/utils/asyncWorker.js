@@ -16,7 +16,7 @@ const asyncWorker = (opts = { initialState, maxTimeout, onTriggered, toProceed }
             runAsyncLoop();
           }
         } catch (e) {
-          console.error(e);
+          console.error(e.message);
         }
       })();
     }, maxTimeout);

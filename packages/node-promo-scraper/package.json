@@ -64,6 +64,7 @@
     "node-scraper-amex": "2.0.8",
     "node-scraper-burpple": "1.2.2",
     "node-scraper-citi": "1.1.1",
+    "node-scraper-ocbc": "1.2.1",
     "node-scraper-chope": "0.1.2"
   },
   "devDependencies": {
