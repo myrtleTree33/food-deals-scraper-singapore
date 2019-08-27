@@ -55,6 +55,6 @@ app.use((err, req, res, next) => {
 
 startScraping();
 // dumpOutlets();
-// runReduceOutlets('1 4 * * *');
+runReduceOutlets('1 4 * * *');
 
 export default app;
