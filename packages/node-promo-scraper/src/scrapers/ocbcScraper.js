@@ -30,7 +30,6 @@ const scrapePageWorker = asyncWorker({
       const outletPromises = entries.map(async entry => {
         const {
           title,
-          url,
           promoType,
           imgUrl,
           email,
@@ -46,6 +45,12 @@ const scrapePageWorker = asyncWorker({
           dateStart,
           dateEnd
         } = entry;
+
+        if (!title) {
+          console.log('-------------------');
+          console.log('-------------------');
+          console.log('-------------------');
+        }
 
         const outletId = createHash(title);
         const resolvedLoc = await getLngLat(address);

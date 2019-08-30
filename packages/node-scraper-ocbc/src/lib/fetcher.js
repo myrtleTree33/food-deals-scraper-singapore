@@ -2,6 +2,7 @@ import Axios from 'axios';
 import Cheerio from 'cheerio';
 import moment from 'moment';
 import striptags from 'striptags';
+import _ from 'lodash';
 
 const parseDate = date => moment(date, 'DD/MM/YY').toDate();
 
@@ -12,9 +13,10 @@ const formatAddresses = rawAddresses => {
     .map(a => striptags(a))
     .map(a => a.replace(/\n/g, ' '))
     .map(a => a.replace(/\|/g, ' '))
-    .map(a => a.replace(/  /g, ' '))
     .map(a => a.replace(/&#\d*;/g, ''))
     .map(a => a.replace(/S *(\d{6})/g, 'Singapore $1'))
+    .map(a => a.replace(/Singapore/g, ' Singapore'))
+    .map(a => a.replace(/  /g, ' '))
     .map(a => a.trim())
     .filter(Boolean);
 
@@ -47,10 +49,14 @@ const processEntry = entry => {
   ] = entry.split(',');
 
   if (!merchant || category !== 'dining') {
-    return null;
+    return [];
   }
 
   const title = merchant.replace(/\| (.*)$/, ' ($1)');
+
+  if (!title) {
+    console.log(merchant);
+  }
 
   let telephone = striptags(telephoneRaw)
     .replace(/ /g, '')
@@ -110,7 +116,7 @@ export const scrapeOffers = async () => {
   const { data } = await Axios.get(url);
   const entries = data.split('\r\n').splice(1);
 
-  return entries.map(processEntry).filter(Boolean);
+  return _.flatMap(entries.map(processEntry));
 };
 
 export default scrapeOffers;

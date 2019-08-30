@@ -27,8 +27,6 @@ const processPage = async url => {
   }
   promos = promos.map(p => p.replace(/<br>/g, '')).filter(Boolean);
 
-  hello wordl
-
   const dates = entries
     .map(extractDate)
     .flatten()
