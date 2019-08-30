@@ -12,17 +12,19 @@ At current, the following sources are supported.
 
 Help would be appreciated to integrate more providers below:
 
-| Source        | Status                  |
-| ------------- | ----------------------- |
-| Burpple       | Scraped                 |
-| Chope Deals   | Scraped                 |
-| Chope Outlets | Outlets not scraped yet |
-| Amex          | Scraped                 |
-| Citi          | Scraped                 |
-| OCBC          | Scraped but not matched |
-| Maybank       |                         |
-| HSBC          |                         |
-| HungryGoWhere |                         |
+| Source             | Extract & Transform | Load | Matched |
+| ------------------ | ------------------- | ---- | ------- |
+| Burpple            | Done                | Done | Done    |
+| Chope Deals        | Done                | Done | Done    |
+| Chope Outlets      |                     |      |         |
+| Amex               | Done                | Done |         |
+| Citi               | Done                | Done |         |
+| DBS                | Doing               |      |         |
+| OCBC               | Doing               |      |         |
+| Maybank            |                     |      |         |
+| Standard Chartered |                     |      |         |
+| HSBC               |                     |      |         |
+| HungryGoWhere      |                     |      |         |
 
 ## Help needed for
 
