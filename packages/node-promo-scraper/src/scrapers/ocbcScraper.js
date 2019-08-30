@@ -35,7 +35,7 @@ const scrapePageWorker = asyncWorker({
           imgUrl,
           email,
           telephone,
-          website,
+          link,
           location: address,
           description,
           isOneForOne,
@@ -71,7 +71,7 @@ const scrapePageWorker = asyncWorker({
             returnVoucherAmt,
             dateStart,
             dateEnd,
-            link: website,
+            link,
             imgUrls: [imgUrl],
             location: {
               type: 'Point',
