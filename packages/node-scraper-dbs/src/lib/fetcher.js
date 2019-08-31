@@ -44,7 +44,7 @@ const processPage = async (url, dateEnd1) => {
   }
   dateEnd = dateEnd.toDate();
 
-  const details = striptags(_.last(entries))
+  const description = striptags(_.last(entries))
     .trim()
     .replace(/\n/g, ' | ');
 
@@ -61,7 +61,7 @@ const processPage = async (url, dateEnd1) => {
     link,
     dateEnd,
     isOneForOne,
-    details
+    description
   }));
 };
 
@@ -93,8 +93,8 @@ export const scrapeOffers = async (
   }
 ) => {
   const { page } = opts;
-
-  const url = `https://www.dbs.com.sg/personal/cards/offers/default/1489849577564.ajax?cardParam=all&firstLevelBenefit=jeluqztv&secondLevelBenefitParam=all&thirdLevelBenefitParam=all&loadMore=true&start=${page}&_=1566999239017`;
+  const offset = page * 10;
+  const url = `https://www.dbs.com.sg/personal/cards/offers/default/1489849577564.ajax?cardParam=all&firstLevelBenefit=jeluqztv&secondLevelBenefitParam=all&thirdLevelBenefitParam=all&loadMore=true&start=${offset}&_=1566999239017`;
   const res = await Axios.get(url);
   const parsedXml = convert.xml2js(res.data);
   const entries = JSON.parse(
