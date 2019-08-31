@@ -6,6 +6,16 @@ import extractDate from 'extract-date';
 import striptags from 'striptags';
 import _ from 'lodash';
 
+const findAddress = entries => {
+  let rawStr = entries.filter(entry => /Main Outlet/.test(entry))[0];
+  if (!rawStr) {
+    return null;
+  }
+
+  rawStr = striptags(rawStr);
+  return rawStr.replace(/Main Outlet:/, '').trim();
+};
+
 const processPage = async (url, dateEnd1) => {
   const link = `https://www.dbs.com.sg/personal/promotion/${url}`;
   const res = await Axios.get(link);
@@ -17,6 +27,8 @@ const processPage = async (url, dateEnd1) => {
   ).html();
 
   entries = entries.replace(/<br><br>/g, '\n\n').split('\n\n');
+
+  const address = findAddress(entries);
 
   const title = Cheerio.load(entries[0])('strong').text();
 
@@ -57,6 +69,7 @@ const processPage = async (url, dateEnd1) => {
 
   return promos.map(p => ({
     title,
+    address,
     promo: p,
     link,
     dateEnd,
