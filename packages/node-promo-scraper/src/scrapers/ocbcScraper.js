@@ -56,6 +56,7 @@ const scrapePageWorker = asyncWorker({
         const resolvedLoc = await getLngLat(address);
 
         if (!resolvedLoc) {
+          console.log(link);
           return Promise.resolve();
         }
 

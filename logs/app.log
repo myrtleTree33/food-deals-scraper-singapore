@@ -857,3 +857,179 @@
 {"message":"Cannot read property 'geometry' of undefined Error finding loc=Equarius Hotel Lobby","level":"error"}
 {"message":"Cannot read property 'geometry' of undefined Error finding loc=ESPA Level 1 West Carpark","level":"error"}
 {"message":"[Ocbc] Done scraping Ocbc offers.","level":"info"}
+{"message":"Connecting to mongodb://scraperBot:y798234by78t73482ytb948ygfceudjhhdNGGUEWgef373@68.183.236.43:13972/promoscraper..","level":"info"}
+{"message":"Connected to mongodb://scraperBot:y798234by78t73482ytb948ygfceudjhhdNGGUEWgef373@68.183.236.43:13972/promoscraper","level":"info"}
+{"message":"== Starting scrapers ==","level":"info"}
+{"message":"[Ocbc] Scheduled scraping.","level":"info"}
+{"message":"[Ocbc] Started scraping..","level":"info"}
+{"message":"Listening on port 8080","level":"info"}
+{"message":"[Ocbc] Scraping Ocbc offers..","level":"info"}
+{"message":"Cannot read property 'geometry' of undefined Error finding loc=Full outlet listing and addresses at https://www.facebook.com/AHKHOOSINGAPORE/","level":"error"}
+{"message":"Cannot read property 'geometry' of undefined Error finding loc=Full outlets listing at http://bayang.com.sg/","level":"error"}
+{"message":"Cannot read property 'geometry' of undefined Error finding loc=Full outlets listing at http://www.balithai.com.sg/","level":"error"}
+{"message":"Cannot read property 'geometry' of undefined Error finding loc=All outlets www.collins.sg","level":"error"}
+{"message":"Cannot read property 'geometry' of undefined Error finding loc=Full outlet listing and addresses at www.hans.com.sg","level":"error"}
+{"message":"Cannot read property 'geometry' of undefined Error finding loc=Full outlet listing at http://hutong.com.sg/","level":"error"}
+{"message":"Cannot read property 'geometry' of undefined Error finding loc=Full outlets listing at http://www.sopho.com.sg/","level":"error"}
+{"message":"Cannot read property 'geometry' of undefined Error finding loc=Isetan Scotts Shaw House 350 Orchard Road Level 4  Singapore 238868 Wilkie Edge Wilkie Edge 8 Wilkie Rd #01-21  Singapore 228095","level":"error"}
+{"message":"Cannot read property 'geometry' of undefined Error finding loc=Click here for full outlets listing","level":"error"}
+{"message":"Cannot read property 'geometry' of undefined Error finding loc=Full outlets listing at http://rennthai.com.sg/","level":"error"}
+{"message":"Cannot read property 'geometry' of undefined Error finding loc=View full outlet listings on website.","level":"error"}
+{"message":"Cannot read property 'geometry' of undefined Error finding loc=View full outlet listings and address on website.","level":"error"}
+{"message":"Cannot read property 'geometry' of undefined Error finding loc=Equarius Hotel Lobby","level":"error"}
+{"message":"Cannot read property 'geometry' of undefined Error finding loc=Hotel Michael Lobby","level":"error"}
+{"message":"Cannot read property 'geometry' of undefined Error finding loc=Available at these 3 participating outlets","level":"error"}
+{"message":"Cannot read property 'geometry' of undefined Error finding loc=Click here for full outlets listing.","level":"error"}
+{"message":"Cannot read property 'geometry' of undefined Error finding loc=Available at these 3 participating outlets","level":"error"}
+{"message":"Cannot read property 'geometry' of undefined Error finding loc=INDOCHILI (TANJONG PAGAR CENTRE) 7 Wallich Street #B1-03 Singapore 078884 (Enter from Tg Pagar MRT Station)","level":"error"}
+{"message":"Cannot read property 'geometry' of undefined Error finding loc=For full outlet listing click here","level":"error"}
+{"message":"Cannot read property 'geometry' of undefined Error finding loc=Full outlets listing at http://honguo.com.sg/","level":"error"}
+{"message":"Cannot read property 'geometry' of undefined Error finding loc=Full outlets listing at http://indoboxcafe.com.sg/","level":"error"}
+{"message":"Cannot read property 'geometry' of undefined Error finding loc=Hotel Michael Lobby","level":"error"}
+{"message":"Cannot read property 'geometry' of undefined Error finding loc=View full outlet listings on website.","level":"error"}
+{"message":"Cannot read property 'geometry' of undefined Error finding loc=INDOCHILI (SCIENCE PARK) 2 Science Park Drive #01-09 Singapore 118222 (Opp. NUH / Kent Ridge MRT Station)","level":"error"}
+{"message":"Cannot read property 'geometry' of undefined Error finding loc=Hard Rock&reg; Hotel Singapore Lobby","level":"error"}
+{"message":"Cannot read property 'geometry' of undefined Error finding loc=Hard Rock&reg; Hotel Singapore Lobby","level":"error"}
+{"message":"Cannot read property 'geometry' of undefined Error finding loc=Full outlets listing at http://www.muchos.com.sg/","level":"error"}
+{"message":"Cannot read property 'geometry' of undefined Error finding loc=Full outlets listing at https://streats.com.sg/","level":"error"}
+{"message":"Cannot read property 'geometry' of undefined Error finding loc=Full outlet listings and addresses on website.","level":"error"}
+{"message":"Cannot read property 'geometry' of undefined Error finding loc=Click here for full outlets listing.","level":"error"}
+{"message":"Cannot read property 'geometry' of undefined Error finding loc=View here for full outlets listing.","level":"error"}
+{"message":"Cannot read property 'geometry' of undefined Error finding loc=View full outlet listings on website.","level":"error"}
+{"message":"Cannot read property 'geometry' of undefined Error finding loc=INDOCHILI (ZION ROAD) 54 Zion Road Singapore 247779 (Opposite Great World City Shopping Mall)","level":"error"}
+{"message":"Cannot read property 'geometry' of undefined Error finding loc=Available at these 4 participating outlets","level":"error"}
+{"message":"Cannot read property 'geometry' of undefined Error finding loc=ESPA Level 1 West Carpark","level":"error"}
+{"message":"Cannot read property 'geometry' of undefined Error finding loc=Valid at all Tim Ho Wan outlets listed on website.","level":"error"}
+{"message":"Cannot read property 'geometry' of undefined Error finding loc=Full address details on website","level":"error"}
+{"message":"[Ocbc] Done scraping Ocbc offers.","level":"info"}
+{"message":"Connecting to mongodb://scraperBot:y798234by78t73482ytb948ygfceudjhhdNGGUEWgef373@68.183.236.43:13972/promoscraper..","level":"info"}
+{"message":"Connected to mongodb://scraperBot:y798234by78t73482ytb948ygfceudjhhdNGGUEWgef373@68.183.236.43:13972/promoscraper","level":"info"}
+{"message":"== Starting scrapers ==","level":"info"}
+{"message":"[Ocbc] Scheduled scraping.","level":"info"}
+{"message":"[Ocbc] Started scraping..","level":"info"}
+{"message":"Listening on port 8080","level":"info"}
+{"message":"[Ocbc] Scraping Ocbc offers..","level":"info"}
+{"message":"Cannot read property 'geometry' of undefined Error finding loc=Full outlets listing at http://honguo.com.sg/","level":"error"}
+{"message":"Cannot read property 'geometry' of undefined Error finding loc=Isetan Scotts Shaw House 350 Orchard Road Level 4  Singapore 238868 Wilkie Edge Wilkie Edge 8 Wilkie Rd #01-21  Singapore 228095","level":"error"}
+{"message":"Cannot read property 'geometry' of undefined Error finding loc=Click here for full outlets listing","level":"error"}
+{"message":"Cannot read property 'geometry' of undefined Error finding loc=Full outlets listing at http://rennthai.com.sg/","level":"error"}
+{"message":"Cannot read property 'geometry' of undefined Error finding loc=Full outlet listing and addresses at https://www.facebook.com/AHKHOOSINGAPORE/","level":"error"}
+{"message":"Cannot read property 'geometry' of undefined Error finding loc=Full outlets listing at http://www.balithai.com.sg/","level":"error"}
+{"message":"Cannot read property 'geometry' of undefined Error finding loc=Hotel Michael Lobby","level":"error"}
+{"message":"Cannot read property 'geometry' of undefined Error finding loc=View full outlet listings on website.","level":"error"}
+{"message":"Cannot read property 'geometry' of undefined Error finding loc=All outlets www.collins.sg","level":"error"}
+{"message":"Cannot read property 'geometry' of undefined Error finding loc=Full outlet listing and addresses at www.hans.com.sg","level":"error"}
+{"message":"Cannot read property 'geometry' of undefined Error finding loc=Full outlet listings and addresses on website.","level":"error"}
+{"message":"Cannot read property 'geometry' of undefined Error finding loc=Full outlets listing at http://www.muchos.com.sg/","level":"error"}
+{"message":"Cannot read property 'geometry' of undefined Error finding loc=Equarius Hotel Lobby","level":"error"}
+{"message":"Cannot read property 'geometry' of undefined Error finding loc=Full address details on website","level":"error"}
+{"message":"Cannot read property 'geometry' of undefined Error finding loc=INDOCHILI (TANJONG PAGAR CENTRE) 7 Wallich Street #B1-03 Singapore 078884 (Enter from Tg Pagar MRT Station)","level":"error"}
+{"message":"Cannot read property 'geometry' of undefined Error finding loc=Available at these 3 participating outlets","level":"error"}
+{"message":"Cannot read property 'geometry' of undefined Error finding loc=INDOCHILI (ZION ROAD) 54 Zion Road Singapore 247779 (Opposite Great World City Shopping Mall)","level":"error"}
+{"message":"Cannot read property 'geometry' of undefined Error finding loc=Hard Rock&reg; Hotel Singapore Lobby","level":"error"}
+{"message":"Cannot read property 'geometry' of undefined Error finding loc=View full outlet listings on website.","level":"error"}
+{"message":"Cannot read property 'geometry' of undefined Error finding loc=Click here for full outlets listing.","level":"error"}
+{"message":"Cannot read property 'geometry' of undefined Error finding loc=Available at these 3 participating outlets","level":"error"}
+{"message":"Cannot read property 'geometry' of undefined Error finding loc=Full outlets listing at http://bayang.com.sg/","level":"error"}
+{"message":"Cannot read property 'geometry' of undefined Error finding loc=View here for full outlets listing.","level":"error"}
+{"message":"Cannot read property 'geometry' of undefined Error finding loc=INDOCHILI (SCIENCE PARK) 2 Science Park Drive #01-09 Singapore 118222 (Opp. NUH / Kent Ridge MRT Station)","level":"error"}
+{"message":"Cannot read property 'geometry' of undefined Error finding loc=Click here for full outlets listing.","level":"error"}
+{"message":"Cannot read property 'geometry' of undefined Error finding loc=Hard Rock&reg; Hotel Singapore Lobby","level":"error"}
+{"message":"Cannot read property 'geometry' of undefined Error finding loc=Full outlets listing at https://streats.com.sg/","level":"error"}
+{"message":"Cannot read property 'geometry' of undefined Error finding loc=Full outlets listing at http://indoboxcafe.com.sg/","level":"error"}
+{"message":"Cannot read property 'geometry' of undefined Error finding loc=Full outlet listing at http://hutong.com.sg/","level":"error"}
+{"message":"Cannot read property 'geometry' of undefined Error finding loc=View full outlet listings and address on website.","level":"error"}
+{"message":"Cannot read property 'geometry' of undefined Error finding loc=Available at these 4 participating outlets","level":"error"}
+{"message":"Cannot read property 'geometry' of undefined Error finding loc=Valid at all Tim Ho Wan outlets listed on website.","level":"error"}
+{"message":"Cannot read property 'geometry' of undefined Error finding loc=View full outlet listings on website.","level":"error"}
+{"message":"Cannot read property 'geometry' of undefined Error finding loc=Full outlets listing at http://www.sopho.com.sg/","level":"error"}
+{"message":"Cannot read property 'geometry' of undefined Error finding loc=ESPA Level 1 West Carpark","level":"error"}
+{"message":"Cannot read property 'geometry' of undefined Error finding loc=For full outlet listing click here","level":"error"}
+{"message":"Cannot read property 'geometry' of undefined Error finding loc=Hotel Michael Lobby","level":"error"}
+{"message":"[Ocbc] Done scraping Ocbc offers.","level":"info"}
+{"message":"Connecting to mongodb://scraperBot:y798234by78t73482ytb948ygfceudjhhdNGGUEWgef373@68.183.236.43:13972/promoscraper..","level":"info"}
+{"message":"Connected to mongodb://scraperBot:y798234by78t73482ytb948ygfceudjhhdNGGUEWgef373@68.183.236.43:13972/promoscraper","level":"info"}
+{"message":"== Starting scrapers ==","level":"info"}
+{"message":"[Ocbc] Scheduled scraping.","level":"info"}
+{"message":"[Ocbc] Started scraping..","level":"info"}
+{"message":"Listening on port 8080","level":"info"}
+{"message":"[Ocbc] Scraping Ocbc offers..","level":"info"}
+{"message":"Cannot read property 'geometry' of undefined Error finding loc=Click here for full outlets listing","level":"error"}
+{"message":"Cannot read property 'geometry' of undefined Error finding loc=Full outlets listing at http://bayang.com.sg/","level":"error"}
+{"message":"Cannot read property 'geometry' of undefined Error finding loc=Full outlets listing at http://www.balithai.com.sg/","level":"error"}
+{"message":"Cannot read property 'geometry' of undefined Error finding loc=Click here for full outlets listing.","level":"error"}
+{"message":"Cannot read property 'geometry' of undefined Error finding loc=View full outlet listings on website.","level":"error"}
+{"message":"Cannot read property 'geometry' of undefined Error finding loc=Full outlets listing at https://streats.com.sg/","level":"error"}
+{"message":"Cannot read property 'geometry' of undefined Error finding loc=View full outlet listings and address on website.","level":"error"}
+{"message":"Cannot read property 'geometry' of undefined Error finding loc=Hotel Michael Lobby","level":"error"}
+{"message":"Cannot read property 'geometry' of undefined Error finding loc=All outlets www.collins.sg","level":"error"}
+{"message":"Cannot read property 'geometry' of undefined Error finding loc=Full outlets listing at http://www.muchos.com.sg/","level":"error"}
+{"message":"Cannot read property 'geometry' of undefined Error finding loc=Full outlet listing and addresses at www.hans.com.sg","level":"error"}
+{"message":"Cannot read property 'geometry' of undefined Error finding loc=Available at these 3 participating outlets","level":"error"}
+{"message":"Cannot read property 'geometry' of undefined Error finding loc=View full outlet listings on website.","level":"error"}
+{"message":"Cannot read property 'geometry' of undefined Error finding loc=Full outlets listing at http://rennthai.com.sg/","level":"error"}
+{"message":"Cannot read property 'geometry' of undefined Error finding loc=Full outlet listing and addresses at https://www.facebook.com/AHKHOOSINGAPORE/","level":"error"}
+{"message":"Cannot read property 'geometry' of undefined Error finding loc=Hard Rock&reg; Hotel Singapore Lobby","level":"error"}
+{"message":"Cannot read property 'geometry' of undefined Error finding loc=Hard Rock&reg; Hotel Singapore Lobby","level":"error"}
+{"message":"Cannot read property 'geometry' of undefined Error finding loc=Available at these 3 participating outlets","level":"error"}
+{"message":"Cannot read property 'geometry' of undefined Error finding loc=INDOCHILI (SCIENCE PARK) 2 Science Park Drive #01-09 Singapore 118222 (Opp. NUH / Kent Ridge MRT Station)","level":"error"}
+{"message":"Cannot read property 'geometry' of undefined Error finding loc=Hotel Michael Lobby","level":"error"}
+{"message":"Cannot read property 'geometry' of undefined Error finding loc=For full outlet listing click here","level":"error"}
+{"message":"Cannot read property 'geometry' of undefined Error finding loc=INDOCHILI (ZION ROAD) 54 Zion Road Singapore 247779 (Opposite Great World City Shopping Mall)","level":"error"}
+{"message":"Cannot read property 'geometry' of undefined Error finding loc=Isetan Scotts Shaw House 350 Orchard Road Level 4  Singapore 238868 Wilkie Edge Wilkie Edge 8 Wilkie Rd #01-21  Singapore 228095","level":"error"}
+{"message":"Cannot read property 'geometry' of undefined Error finding loc=Full outlets listing at http://www.sopho.com.sg/","level":"error"}
+{"message":"Cannot read property 'geometry' of undefined Error finding loc=Full address details on website","level":"error"}
+{"message":"Cannot read property 'geometry' of undefined Error finding loc=Full outlets listing at http://honguo.com.sg/","level":"error"}
+{"message":"Cannot read property 'geometry' of undefined Error finding loc=Full outlet listing at http://hutong.com.sg/","level":"error"}
+{"message":"Cannot read property 'geometry' of undefined Error finding loc=View full outlet listings on website.","level":"error"}
+{"message":"Cannot read property 'geometry' of undefined Error finding loc=Click here for full outlets listing.","level":"error"}
+{"message":"Cannot read property 'geometry' of undefined Error finding loc=Valid at all Tim Ho Wan outlets listed on website.","level":"error"}
+{"message":"Cannot read property 'geometry' of undefined Error finding loc=Full outlets listing at http://indoboxcafe.com.sg/","level":"error"}
+{"message":"Cannot read property 'geometry' of undefined Error finding loc=Available at these 4 participating outlets","level":"error"}
+{"message":"Cannot read property 'geometry' of undefined Error finding loc=Full outlet listings and addresses on website.","level":"error"}
+{"message":"Cannot read property 'geometry' of undefined Error finding loc=View here for full outlets listing.","level":"error"}
+{"message":"Cannot read property 'geometry' of undefined Error finding loc=Equarius Hotel Lobby","level":"error"}
+{"message":"Cannot read property 'geometry' of undefined Error finding loc=INDOCHILI (TANJONG PAGAR CENTRE) 7 Wallich Street #B1-03 Singapore 078884 (Enter from Tg Pagar MRT Station)","level":"error"}
+{"message":"Cannot read property 'geometry' of undefined Error finding loc=ESPA Level 1 West Carpark","level":"error"}
+{"message":"[Ocbc] Done scraping Ocbc offers.","level":"info"}
+{"message":"Connecting to mongodb://scraperBot:y798234by78t73482ytb948ygfceudjhhdNGGUEWgef373@68.183.236.43:13972/promoscraper..","level":"info"}
+{"message":"Connected to mongodb://scraperBot:y798234by78t73482ytb948ygfceudjhhdNGGUEWgef373@68.183.236.43:13972/promoscraper","level":"info"}
+{"message":"== Starting scrapers ==","level":"info"}
+{"message":"[Ocbc] Scheduled scraping.","level":"info"}
+{"message":"[Ocbc] Started scraping..","level":"info"}
+{"message":"Listening on port 8080","level":"info"}
+{"message":"[Ocbc] Scraping Ocbc offers..","level":"info"}
+{"message":"Cannot read property 'geometry' of undefined Error finding loc=23 Serangoon Central, #02 - 07/08, Nex Mall","level":"error"}
+{"message":"Cannot read property 'geometry' of undefined Error finding loc=1 HarbourFront Walk, #02-117, VivoCity","level":"error"}
+{"message":"Cannot read property 'geometry' of undefined Error finding loc=1 HarbourFront Walk, #02-117, VivoCity","level":"error"}
+{"message":"Cannot read property 'geometry' of undefined Error finding loc=23 Serangoon Central, #02 - 07/08, Nex Mall","level":"error"}
+{"message":"[Ocbc] Done scraping Ocbc offers.","level":"info"}
+{"message":"Connecting to mongodb://scraperBot:y798234by78t73482ytb948ygfceudjhhdNGGUEWgef373@68.183.236.43:13972/promoscraper..","level":"info"}
+{"message":"Connected to mongodb://scraperBot:y798234by78t73482ytb948ygfceudjhhdNGGUEWgef373@68.183.236.43:13972/promoscraper","level":"info"}
+{"message":"== Starting scrapers ==","level":"info"}
+{"message":"[Ocbc] Scheduled scraping.","level":"info"}
+{"message":"[Ocbc] Started scraping..","level":"info"}
+{"message":"Listening on port 8080","level":"info"}
+{"message":"[Ocbc] Scraping Ocbc offers..","level":"info"}
+{"message":"Cannot read property 'geometry' of undefined Error finding loc=1 HarbourFront Walk, VivoCity","level":"error"}
+{"message":"Cannot read property 'geometry' of undefined Error finding loc=1 HarbourFront Walk, VivoCity","level":"error"}
+{"message":"Cannot read property 'geometry' of undefined Error finding loc=23 Serangoon Central, Nex Mall","level":"error"}
+{"message":"Cannot read property 'geometry' of undefined Error finding loc=23 Serangoon Central, Nex Mall","level":"error"}
+{"message":"[Ocbc] Done scraping Ocbc offers.","level":"info"}
+{"message":"Connecting to mongodb://scraperBot:y798234by78t73482ytb948ygfceudjhhdNGGUEWgef373@68.183.236.43:13972/promoscraper..","level":"info"}
+{"message":"Connected to mongodb://scraperBot:y798234by78t73482ytb948ygfceudjhhdNGGUEWgef373@68.183.236.43:13972/promoscraper","level":"info"}
+{"message":"== Starting scrapers ==","level":"info"}
+{"message":"[Ocbc] Scheduled scraping.","level":"info"}
+{"message":"[Ocbc] Started scraping..","level":"info"}
+{"message":"Listening on port 8080","level":"info"}
+{"message":"[Ocbc] Scraping Ocbc offers..","level":"info"}
+{"message":"Cannot read property 'geometry' of undefined Error finding loc=1 HarbourFront Walk, VivoCity","level":"error"}
+{"message":"[Ocbc] Done scraping Ocbc offers.","level":"info"}
+{"message":"Connecting to mongodb://scraperBot:y798234by78t73482ytb948ygfceudjhhdNGGUEWgef373@68.183.236.43:13972/promoscraper..","level":"info"}
+{"message":"Connected to mongodb://scraperBot:y798234by78t73482ytb948ygfceudjhhdNGGUEWgef373@68.183.236.43:13972/promoscraper","level":"info"}
+{"message":"== Starting scrapers ==","level":"info"}
+{"message":"[Ocbc] Scheduled scraping.","level":"info"}
+{"message":"[Ocbc] Started scraping..","level":"info"}
+{"message":"Listening on port 8080","level":"info"}
+{"message":"[Ocbc] Scraping Ocbc offers..","level":"info"}
+{"message":"[Ocbc] Done scraping Ocbc offers.","level":"info"}
