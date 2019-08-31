@@ -46,17 +46,11 @@ const scrapePageWorker = asyncWorker({
           dateEnd
         } = entry;
 
-        if (!title) {
-          console.log('-------------------');
-          console.log('-------------------');
-          console.log('-------------------');
-        }
-
         const outletId = createHash(title);
         const resolvedLoc = await getLngLat(address);
 
         if (!resolvedLoc) {
-          console.log(link);
+          logger.info(`[Ocbc] Link to missing location=${link}`);
           return Promise.resolve();
         }
 

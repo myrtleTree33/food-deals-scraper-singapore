@@ -1033,3 +1033,26 @@
 {"message":"Listening on port 8080","level":"info"}
 {"message":"[Ocbc] Scraping Ocbc offers..","level":"info"}
 {"message":"[Ocbc] Done scraping Ocbc offers.","level":"info"}
+{"message":"Connecting to mongodb://scraperBot:y798234by78t73482ytb948ygfceudjhhdNGGUEWgef373@68.183.236.43:13972/promoscraper..","level":"info"}
+{"message":"Connected to mongodb://scraperBot:y798234by78t73482ytb948ygfceudjhhdNGGUEWgef373@68.183.236.43:13972/promoscraper","level":"info"}
+{"message":"== Starting scrapers ==","level":"info"}
+{"message":"[Ocbc] Scheduled scraping.","level":"info"}
+{"message":"[Ocbc] Started scraping..","level":"info"}
+{"message":"Listening on port 8080","level":"info"}
+{"message":"[Ocbc] Scraping Ocbc offers..","level":"info"}
+{"message":"[Ocbc] Done scraping Ocbc offers.","level":"info"}
+{"message":"Connecting to mongodb://scraperBot:y798234by78t73482ytb948ygfceudjhhdNGGUEWgef373@68.183.236.43:13972/promoscraper..","level":"info"}
+{"message":"Connected to mongodb://scraperBot:y798234by78t73482ytb948ygfceudjhhdNGGUEWgef373@68.183.236.43:13972/promoscraper","level":"info"}
+{"message":"== Starting scrapers ==","level":"info"}
+{"message":"[Ocbc] Scheduled scraping.","level":"info"}
+{"message":"[Ocbc] Started scraping..","level":"info"}
+{"message":"Listening on port 8080","level":"info"}
+{"message":"[Ocbc] Scraping Ocbc offers..","level":"info"}
+{"message":"[Ocbc] Done scraping Ocbc offers.","level":"info"}
+{"message":"Connecting to mongodb://scraperBot:y798234by78t73482ytb948ygfceudjhhdNGGUEWgef373@68.183.236.43:13972/promoscraper..","level":"info"}
+{"message":"Connected to mongodb://scraperBot:y798234by78t73482ytb948ygfceudjhhdNGGUEWgef373@68.183.236.43:13972/promoscraper","level":"info"}
+{"message":"== Starting scrapers ==","level":"info"}
+{"message":"[Citi] Scheduled Citi scraping.","level":"info"}
+{"message":"[Citi] Started Citi scraping..","level":"info"}
+{"message":"Listening on port 8080","level":"info"}
+{"message":"[Citi] Scraping page 1..","level":"info"}

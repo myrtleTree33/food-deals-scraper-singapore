@@ -245,25 +245,28 @@ const processEntry = entry => {
 
   const addresses = formatAddresses(link, addressRaw);
 
-  return addresses.map(location => ({
-    id,
-    title,
-    promoType,
-    imgUrl,
-    email: email || null,
-    telephone: telephone || null,
-    link,
-    location,
-    addressRaw,
-    description,
-    isOneForOne,
-    isPercentDiscount,
-    isReturnVoucher,
-    percentDiscount,
-    returnVoucherAmt,
-    dateStart,
-    dateEnd
-  }));
+  return addresses.map(location => {
+    const title2 = location.length < 2 ? title : `${title} (${location})`;
+    return {
+      id,
+      title: title2,
+      promoType,
+      imgUrl,
+      email: email || null,
+      telephone: telephone || null,
+      link,
+      location,
+      addressRaw,
+      description,
+      isOneForOne,
+      isPercentDiscount,
+      isReturnVoucher,
+      percentDiscount,
+      returnVoucherAmt,
+      dateStart,
+      dateEnd
+    };
+  });
 };
 
 export const scrapeOffers = async () => {
