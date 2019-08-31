@@ -1,3 +1,5 @@
+import crypto from 'crypto';
+
 const enableCors = app => {
   app.use((req, res, next) => {
     res.header('Access-Control-Allow-Origin', '*');
@@ -5,5 +7,11 @@ const enableCors = app => {
     next();
   });
 };
+
+export const md5 = str =>
+  crypto
+    .createHash('md5')
+    .update(str)
+    .digest('hex');
 
 export default enableCors;

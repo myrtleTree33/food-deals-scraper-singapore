@@ -5,6 +5,7 @@ import scrapeChopeScheduled from './chopeScraper';
 import scrapeAmexScheduled from './amexScraper';
 import scrapeCitiScheduled from './citiScraper';
 import scrapeOcbcScheduled from './ocbcScraper';
+import scrapeDbsScheduled from './dbsScraper';
 
 const startScraping = () => {
   logger.info('== Starting scrapers ==');
@@ -13,6 +14,7 @@ const startScraping = () => {
   // scrapeChopeScheduled('1 2 */1 * *');
   // scrapeAmexScheduled('1 2 */1 * *');
   // scrapeOcbcScheduled('1 2 */1 * *');
+  scrapeDbsScheduled('30 2 */1 * *');
 };
 
 export default startScraping;

@@ -1056,3 +1056,51 @@
 {"message":"[Citi] Started Citi scraping..","level":"info"}
 {"message":"Listening on port 8080","level":"info"}
 {"message":"[Citi] Scraping page 1..","level":"info"}
+{"message":"Connecting to mongodb://scraperBot:y798234by78t73482ytb948ygfceudjhhdNGGUEWgef373@68.183.236.43:13972/promoscraper..","level":"info"}
+{"message":"Connected to mongodb://scraperBot:y798234by78t73482ytb948ygfceudjhhdNGGUEWgef373@68.183.236.43:13972/promoscraper","level":"info"}
+{"message":"== Starting scrapers ==","level":"info"}
+{"message":"[Dbs] Scheduled Dbs scraping.","level":"info"}
+{"message":"[Dbs] Started Citi scraping..","level":"info"}
+{"message":"Listening on port 8080","level":"info"}
+{"message":"[Dbs] During page scraping, encountered an exception.  Routine will now terminate.","level":"error"}
+{"message":"entries.map(...).flatten is not a function","level":"error"}
+{"message":"[Dbs] Done scraping DBS offers.","level":"info"}
+{"message":"Connecting to mongodb://scraperBot:y798234by78t73482ytb948ygfceudjhhdNGGUEWgef373@68.183.236.43:13972/promoscraper..","level":"info"}
+{"message":"Connected to mongodb://scraperBot:y798234by78t73482ytb948ygfceudjhhdNGGUEWgef373@68.183.236.43:13972/promoscraper","level":"info"}
+{"message":"== Starting scrapers ==","level":"info"}
+{"message":"[Dbs] Scheduled Dbs scraping.","level":"info"}
+{"message":"[Dbs] Started Citi scraping..","level":"info"}
+{"message":"Listening on port 8080","level":"info"}
+{"message":"[Dbs] Scraping page 1..","level":"info"}
+{"message":"[Dbs] Scraping page 2..","level":"info"}
+{"message":"[Dbs] Scraping page 3..","level":"info"}
+{"message":"Connecting to mongodb://scraperBot:y798234by78t73482ytb948ygfceudjhhdNGGUEWgef373@68.183.236.43:13972/promoscraper..","level":"info"}
+{"message":"Connected to mongodb://scraperBot:y798234by78t73482ytb948ygfceudjhhdNGGUEWgef373@68.183.236.43:13972/promoscraper","level":"info"}
+{"message":"== Starting scrapers ==","level":"info"}
+{"message":"[Dbs] Scheduled Dbs scraping.","level":"info"}
+{"message":"[Dbs] Started Citi scraping..","level":"info"}
+{"message":"Listening on port 8080","level":"info"}
+{"message":"[Dbs] Scraping page 1..","level":"info"}
+{"message":"[Dbs] Scraping page 2..","level":"info"}
+{"message":"[Dbs] Scraping page 3..","level":"info"}
+{"message":"[Dbs] Scraping page 4..","level":"info"}
+{"message":"[Dbs] Scraping page 5..","level":"info"}
+{"message":"[Dbs] Done scraping DBS offers.","level":"info"}
+{"message":"Connecting to mongodb://scraperBot:y798234by78t73482ytb948ygfceudjhhdNGGUEWgef373@68.183.236.43:13972/promoscraper..","level":"info"}
+{"message":"Connected to mongodb://scraperBot:y798234by78t73482ytb948ygfceudjhhdNGGUEWgef373@68.183.236.43:13972/promoscraper","level":"info"}
+{"message":"== Starting scrapers ==","level":"info"}
+{"message":"[Dbs] Scheduled Dbs scraping.","level":"info"}
+{"message":"[Dbs] Started Citi scraping..","level":"info"}
+{"message":"Listening on port 8080","level":"info"}
+{"message":"[Dbs] During page scraping, encountered an exception.  Routine will now terminate.","level":"error"}
+{"message":"getaddrinfo ENOTFOUND www.dbs.com.sg www.dbs.com.sg:443","level":"error"}
+{"message":"[Dbs] Done scraping DBS offers.","level":"info"}
+{"message":"Connecting to mongodb://scraperBot:y798234by78t73482ytb948ygfceudjhhdNGGUEWgef373@68.183.236.43:13972/promoscraper..","level":"info"}
+{"message":"Connected to mongodb://scraperBot:y798234by78t73482ytb948ygfceudjhhdNGGUEWgef373@68.183.236.43:13972/promoscraper","level":"info"}
+{"message":"== Starting scrapers ==","level":"info"}
+{"message":"[Dbs] Scheduled Dbs scraping.","level":"info"}
+{"message":"[Dbs] Started Citi scraping..","level":"info"}
+{"message":"Listening on port 8080","level":"info"}
+{"message":"[Dbs] Scraping page 1..","level":"info"}
+{"message":"[Dbs] Scraping page 2..","level":"info"}
+{"message":"[Dbs] Scraping page 3..","level":"info"}

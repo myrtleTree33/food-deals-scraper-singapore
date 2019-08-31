@@ -38,10 +38,7 @@ const processPage = async (url, dateEnd1) => {
   }
   promos = promos.map(p => p.replace(/<br>/g, '')).filter(Boolean);
 
-  const dates = entries
-    .map(extractDate)
-    .flatten()
-    .map(a => a.date);
+  const dates = _.flatten(entries.map(extractDate)).map(a => a.date);
 
   let dateEnd2 = _.last(dates);
   dateEnd2 = dateEnd2 ? moment(dateEnd2, 'YYYY-MM-DD') : undefined;
@@ -56,7 +53,7 @@ const processPage = async (url, dateEnd1) => {
   }
   dateEnd = dateEnd.toDate();
 
-  const description = striptags(_.last(entries))
+  const tos = striptags(_.last(entries))
     .trim()
     .replace(/\n/g, ' | ');
 
@@ -74,7 +71,7 @@ const processPage = async (url, dateEnd1) => {
     link,
     dateEnd,
     isOneForOne,
-    description
+    tos
   }));
 };
 
@@ -94,7 +91,7 @@ const processEntry = async entry => {
   return pageInfos.map(p => ({
     title,
     promoType,
-    imgUrl,
+    imgUrl: `https://www.dbs.com.sg/${imgUrl}`,
     telephone,
     ...p
   }));
