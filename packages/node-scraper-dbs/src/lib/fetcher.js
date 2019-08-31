@@ -6,10 +6,9 @@ import extractDate from 'extract-date';
 import striptags from 'striptags';
 import _ from 'lodash';
 
-const processPage = async url => {
-  const res = await Axios.get(
-    `https://www.dbs.com.sg/personal/promotion/${url}`
-  );
+const processPage = async (url, dateEnd1) => {
+  const link = `https://www.dbs.com.sg/personal/promotion/${url}`;
+  const res = await Axios.get(link);
 
   const $ = Cheerio.load(res.data);
 
@@ -32,19 +31,38 @@ const processPage = async url => {
     .flatten()
     .map(a => a.date);
 
-  const endDate = _.last(dates);
+  let dateEnd2 = _.last(dates);
+  dateEnd2 = dateEnd2 ? moment(dateEnd2, 'YYYY-MM-DD') : undefined;
 
-  const details = striptags(_.last(entries));
+  let dateEnd = undefined;
+  if (!dateEnd1) {
+    dateEnd = dateEnd2;
+  } else if (!dateEnd2) {
+    dateEnd = dateEnd1;
+  } else {
+    dateEnd = moment.max([dateEnd1, dateEnd2]);
+  }
+  dateEnd = dateEnd.toDate();
 
-  console.log(details);
+  const details = striptags(_.last(entries))
+    .trim()
+    .replace(/\n/g, ' | ');
 
   // TODO get date here------------
 
-  return {
+  const isOneForOne = promos.reduce(
+    (hasPromo, p) => hasPromo || p.includes('1-for-1'),
+    false
+  );
+
+  return promos.map(p => ({
     title,
-    promos,
-    endDate
-  };
+    promo: p,
+    link,
+    dateEnd,
+    isOneForOne,
+    details
+  }));
 };
 
 const processEntry = async entry => {
@@ -57,18 +75,16 @@ const processEntry = async entry => {
     DBS_Tel_no: telephone
   } = entry;
 
-  const dateEnd = moment(dateEndRaw, 'YYYY-MM-DD HH:mm:ss').toDate();
+  const dateEnd = moment(dateEndRaw, 'YYYY-MM-DD HH:mm:ss');
+  const pageInfos = await processPage(url, dateEnd);
 
-  const pageInfo = await processPage(url);
-
-  return {
-    // title,
-    // promoType,
-    // dateEnd,
-    // imgUrl,
-    // telephone,
-    ...pageInfo
-  };
+  return pageInfos.map(p => ({
+    title,
+    promoType,
+    imgUrl,
+    telephone,
+    ...p
+  }));
 };
 
 export const scrapeOffers = async (
@@ -86,9 +102,9 @@ export const scrapeOffers = async (
       .elements[19].elements[0].text
   );
 
-  const results = entries.map(processEntry);
-
-  return Promise.all(results);
+  const promises = entries.map(processEntry);
+  const results = await Promise.all(promises);
+  return _.flatMap(results);
 };
 
 // TODO scrape page for
