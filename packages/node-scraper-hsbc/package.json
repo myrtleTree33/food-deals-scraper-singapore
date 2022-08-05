@@ -64,7 +64,7 @@
     "csvtojson": "^2.0.10",
     "lodash": "^4.17.15",
     "moment": "^2.24.0",
-    "mongoose": "^5.2.9",
+    "mongoose": "^5.7.5",
     "request": "^2.88.0",
     "sanitize-html": "^1.20.1",
     "string-strip-html": "^3.2.0",
