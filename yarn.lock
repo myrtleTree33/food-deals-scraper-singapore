@@ -7209,9 +7209,13 @@ qs@6.7.0:
   version "6.7.0"
   resolved "https://registry.yarnpkg.com/qs/-/qs-6.7.0.tgz#41dc1a015e3d581f1621776be31afb2876a9b1bc"
 
-qs@^6.5.1, qs@^6.7.0:
+qs@^6.5.1:
   version "6.8.0"
   resolved "https://registry.yarnpkg.com/qs/-/qs-6.8.0.tgz#87b763f0d37ca54200334cd57bb2ef8f68a1d081"
+
+qs@^6.7.0:
+  version "6.7.3"
+  resolved "https://registry.yarnpkg.com/qs/-/qs-6.7.3.tgz#67634d715101aa950601f58dbef353b7e1696b95"
 
 qs@~6.5.2:
   version "6.5.2"
